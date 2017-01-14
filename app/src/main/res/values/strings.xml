@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Info Contacto</string>
+    <string name="edittext_text">Nombre Completo</string>
+    <string name="edittext_telefono">Telefono</string>
+    <string name="edittext_FechaNac">Introduce Fecha De Nacimiento</string>
+    <string name="edittext_email">Email</string>
+    <string name="BtnText_Fecha">Fecha</string>
+    <string name="MaCTVDescripcion">Descripcion de Contacto</string>
+    <string name="BtnText_Siguiente">Siguiente</string>
+    <string name="Titulo_ConfirmarDatos">CONFIRMAR DATOS</string>
+    <string name="BtnText_Editar">EDITAR</string>
+    <string name="Pnombre">Nombre completo</string>
+    <string name="Pafnac">Fecha de nacimiento</string>
+    <string name="Pntel">Telefono</string>
+    <string name="Pnemail">Email</string>
+    <string name="Pndescripcion">Descricpion contacto</string>
+</resources>

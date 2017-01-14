@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_confirmar_datos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.lavidaesunvideojuego.infocontacto.ConfirmarDatos">
+
+    <TextView
+        android:id="@+id/tvdatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Titulo_ConfirmarDatos"
+        android:textSize="@dimen/Text_size"
+        android:textStyle="bold"
+        android:textColor="@color/colorTituloText"
+        android:layout_marginLeft="@dimen/activity_margin_titulo_right"/>
+
+    <TextView
+        android:id="@+id/nombreCompleto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Pnombre"
+        android:textStyle="bold"
+        android:textSize="@dimen/Text_size"
+        android:layout_marginTop="@dimen/activity_margin_titulo_top"
+        >
+
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/fechaNacimiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Pafnac"
+        android:textStyle="bold"
+        android:textSize="@dimen/Text_size"
+        android:layout_marginTop="@dimen/activity_margin_titulo_top"
+        >
+
+
+    </TextView>
+    <TextView
+        android:id="@+id/telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Pntel"
+        android:textStyle="bold"
+        android:textSize="@dimen/Text_size"
+        android:layout_marginTop="@dimen/activity_margin_titulo_top"
+        >
+
+
+    </TextView>
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Pnemail"
+        android:textStyle="bold"
+        android:textSize="@dimen/Text_size"
+        android:layout_marginTop="@dimen/activity_margin_titulo_top"
+        >
+
+
+    </TextView>
+    <TextView
+        android:id="@+id/descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Pndescripcion"
+        android:textStyle="bold"
+        android:textSize="@dimen/Text_size"
+        android:layout_marginTop="@dimen/activity_margin_titulo_top"
+        >
+
+
+    </TextView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_margin_button_top"
+        android:id="@+id/button2"
+        android:background="@color/colorAccent"
+        android:text="@string/BtnText_Editar"/>
+
+
+
+
+</LinearLayout>
